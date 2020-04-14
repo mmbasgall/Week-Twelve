@@ -1,0 +1,53 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    }
+
+figure, figcaption
+    {
+margin:0;
+padding: 0;
+align-items: center;
+}
+figure{
+    border:1px solid black;
+    width:450px;
+    padding-left: 0px;
+    text-align: left;
+
+}
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+table {
+  
+    border:1px solid black;
+    margin: 10px auto;
+}
+
+th:first-child, td:first-chlid {
+    text-align: left
+}
+th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+}
+tbody tr:nth-child(1) {
+    background-color:#ff004cc5;}
+    tbody tr:last-child {
+        background-color:#ff004cc5;}
+table,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+th{
+    color: seashell;
+    text-shadow: slategrey;
+}
+body{
+    
+}
